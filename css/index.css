@@ -1,0 +1,32 @@
+html
+{
+    height: 100%;
+
+}
+
+body
+{
+    background: #fff url(/css/batbucket.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font: 400 14pt sans-serif;;
+    margin: 0;
+}
+
+#batbucket
+{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+p
+{
+    background: rgba(0, 0, 0, 0.75);
+    bottom: 0;
+    margin: 1em;
+    padding: 0.5em 1em;
+    position: fixed;
+}
