@@ -11,15 +11,38 @@ areahtml
 
 body
 {
-    background: #fff url(/css/batbucket.jpg) no-repeat center;
-    background-size: cover;
-    color: #fff;
-    font: 400 14pt sans-serif;;
+    background: #fff;
+    color: #234270;
+    font: 400 14pt sans-serif;
     margin: 0;
     width: 100vw;
     height: 100vh;
-    padding: 20px;
     position: relative;
+}
+
+a 
+{
+    color: #0d274c;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #0d274c;
+    text-decoration: underline;
+}
+
+h1 
+{
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 0.5em;
+}
+
+h2 
+{
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0 0 0.5em;
 }
 
 header
@@ -28,8 +51,9 @@ header
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
     padding: 15px 20px 10px;
-    background-color: rgba( 51,51,51, 0.8 );
+    background-color: #fff;
 }
 
 header .external
@@ -46,14 +70,16 @@ header .external
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: rgba( 172,204,227, 0.7);
+    background-color: transparent;
+    border: 1px solid #234270;
     border-radius: 10px;
-    color: #000;
+    color: #234270;
     text-decoration: none;
 }
 
 header .external:hover {
-    background-color: rgba( 172,204,227, 1);
+    background-color: #234270;
+    color: #fff;
 }
 
 
@@ -64,7 +90,7 @@ header .external strong
 
 .branding
 {
-    color: #accce3;
+    color: #234270;
     font-size: 24px;
     line-height: 1.1;
     max-width: 50%;
@@ -73,35 +99,89 @@ header .external strong
 
 main 
 {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    left: 20px;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
+
+main > figure 
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    position: relative;
+}
+
+main > figure img 
+{
+    display: block;
+    max-width: 100%;
+}
+
+main > figure figcaption 
+{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
+}
+
+.cta 
+{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    line-height: 1.1;
+    background-color: #234270; /* #8EBAFF; */
+    /* border: 1px solid #8EBAFF; */
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta:hover 
+{
+    background-color: #fff;
+    color: #234270;
+}
+
+main .copy 
+{
+    margin: 30px 20px 30px;
+    color: #234270;
+}
+
+ul.buttons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main ul.buttons {
+    margin: 20px;
+}
+
 #batbucket
 {
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
+    margin: 20px;
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*position: fixed;*/
+    /*right: 0;*/
+    /*top: 0;*/
 }
 
 footer
 {
-    color: #accce3;
+    color: #234270; /* #8EBAFF; */
     font-size: 10px;
     line-height: 1.1;
-    background: #333;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
+    background: #ccdef9;
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*margin: 0;*/
     padding: 5px 20px 7.5px;
-    position: fixed;
+    /*position: fixed;*/
 }
+

@@ -25,17 +25,26 @@
         </header>
         
         <main>
+            <figure>
+                <img src="/images/batbucket.jpg" alt="drowsy Little Brown Bat taking a short nap while escaping a blue plasic bucket"></img>
+            </figure>
             <div class="copy">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempore, veritatis labore ipsum laboriosam, aut ad consequuntur minima excepturi! Quisquam, amet, autem maiores voluptatem laborum vitae, eius nam necessitatibus assumenda rerum aliquam. Dicta iusto consequuntur fuga nesciunt odio illo, veniam? Aliquid dicta eaque quis officiis praesentium aspernatur sunt ducimus quasi.
-</div>
+                <h1>This is a free<a href="//creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">*</a> photograph of a <a href="https://en.wikipedia.org/wiki/Little_brown_bat">bat</a>. <br>On a bucket.</h1>
+                <p>Go ahead. <a href="/images/batbucket.jpg">Take </a> it. Use it<a href="//creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">*</a>. Do something interesting or fun or cool with it.</p>
+            </div>
             <ul class="buttons">
-                <li><a href="/images/batbucket.jpg">Download <i class="fa fa-download" aria-hidden="true"></i></a></li>
+                <li><a href="/images/batbucket.jpg" class="cta">Download <i class="fa fa-download" aria-hidden="true"></i></a></li>
             </ul>
+
+            <div id="batbucket"></div>
+
         </main>
         
-        <div id="batbucket"></div>
 
-        <footer>Batbucket.org © 2017 by Michael V. Colianna &amp; Ito Pizarro</footer>
+        <footer>
+            <p>Batbucket.org © 2017 by Michael V. Colianna &amp; Ito Pizarro</p>
+            <p>* This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+        </footer>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64910461-6"></script>
