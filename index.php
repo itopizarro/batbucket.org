@@ -26,7 +26,7 @@
         
         <main>
             <figure>
-                <img src="/images/batbucket.jpg" alt="drowsy Little Brown Bat taking a short nap while escaping a blue plasic bucket"></img>
+                <img src="/images/batbucket.jpg" alt="drowsy Little Brown Bat taking a short nap while escaping a blue plastic bucket"></img>
             </figure>
             <div class="copy">
                 <h1>This is a free<a href="//creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">*</a> photograph of a <a href="https://en.wikipedia.org/wiki/Little_brown_bat">bat</a>. <br>On a bucket.</h1>
